@@ -2,22 +2,22 @@
 <html lang="Fr">
 
 <head>
-	<title>Nina Carducci</title>
+	<title>Nina Carducci - Photographe professionnelle en région bordelaise</title>
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
 		  "@type": ["LocalBusiness", "Photographer"],
 		  "name": "Nina Carducci",
-		  "image": "https://votre-site.com/assets/images/nina.webp",
-		  "description": "Photographe professionnelle capturant vos moments les plus précieux en Île-de-France",
+		  "image": "https://ninacarducci.com/assets/images/nina.webp",
+		  "description": "Photographe professionnelle capturant vos moments les plus précieux en région bordelaise",
 		  "address": {
-			"@type": "PostalAddress",
-			"addressRegion": "Île-de-France",
+			"@type": "68 avenue Alsace-Lorraine, 33200 Bordeaux",
+			"addressRegion": "Nouvelle-Aquitaine",
 			"addressCountry": "FR"
 		  },
-		  "url": "https://votre-site.com",
-		  "telephone": "+33XXXXXXXXX",
-		  "priceRange": "€€",
+		  "url": "https://ninacarducci.com",
+		  "telephone": "05 56 67 78 89",
+		  "priceRange": "50€400€",
 		  "openingHoursSpecification": [
 			{
 			  "@type": "OpeningHoursSpecification",
@@ -80,9 +80,9 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta name="description" content="Site vitrine des préstations de photographie de Nina Carducci">
+	<meta name="description" content="Découvrez les préstations de Nina Carducci, jeune photographe de Bordeaux, qui offre des séances photos qui immortalisent vos moments, des albums personalisés et des retouches expertes.">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
@@ -98,9 +98,14 @@
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-						target="_blank"><img src="assets/images/instagram.png"
-							alt="Logo instagram pour accéder à la page de Nina"></a></li>
+				<li>
+					<a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+						target="_blank">
+						<img src="assets/images/instagram.png"
+						alt="Logo instagram pour accéder à la page de Nina">
+						<span>Instagram</span>
+					</a>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -164,10 +169,10 @@
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"
+					src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
 					alt="Concert en vu subjective" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
-					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"
+					src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
 					alt="Homme en costume" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
 					src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"
@@ -185,7 +190,7 @@
 					src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
 					alt="Femme regardant vers le bas" />
 				<img data-gallery-tag="Concert" class="gallery-item"
-					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+					src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
 					alt="Chanteur au micro qui salue la foule" />
 				<img data-gallery-tag="Entreprises" class="gallery-item"
 					src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
@@ -258,10 +263,13 @@
 				<h3>Une question ? Une demande de devis ?</h3>
 				<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 				<form action="" method="post">
-					<label>Nom<input type="text" name="nom" id="nom"></label>
-					<label>Email<input type="email" name="email" id="email"></label>
-					<label>Message<textarea name="message" id="message" cols="30" rows="10"></textarea></label>
-					<input type="submit" value="Envoyer" />
+					<label for="nom">Nom</label>
+					<input type="text" name="nom" id="nom">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email">
+					<label for="message">Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<input type="submit" value="Envoyer"/>
 				</form>
 			</div>
 			<div class="picture right">
